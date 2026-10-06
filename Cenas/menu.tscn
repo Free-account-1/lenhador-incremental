@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://prjhunpvv7it"]
+
+[ext_resource type="FontFile" uid="uid://dv3xewmx7j00a" path="res://Recursos/haunted_hill/WOODCUT.TTF" id="1_u1n12"]
+[ext_resource type="Texture2D" uid="uid://bj218ujfyb7e3" path="res://Recursos/imagens/ChatGPT Image 6 de out. de 2026, 15_18_55.png" id="1_vpgfy"]
+[ext_resource type="FontFile" uid="uid://crgn0o8wf5js4" path="res://Recursos/haunted_hill/HauntedHillRough-Rough.ttf" id="2_vpgfy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r74pk"]
+bg_color = Color(0.44738787, 0.33066234, 0.19721368, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 3
+expand_margin_left = 2.0
+expand_margin_top = 4.0
+expand_margin_right = 2.0
+expand_margin_bottom = 4.0
+anti_aliasing_size = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uhyar"]
+bg_color = Color(0.30928105, 0.21867807, 0.1159947, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eknwk"]
+bg_color = Color(0.24351591, 0.24351591, 0.24351591, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 3
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qwy1f"]
+bg_color = Color(0.34216362, 0.08332229, 0.08332229, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vpgfy"]
+bg_color = Color(0.5920712, 0.11302866, 0.11302866, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u1n12"]
+bg_color = Color(0.24351591, 0.24351591, 0.24351591, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+corner_detail = 3
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 3.0
+
+[node name="Control" type="Control" unique_id=1315476253]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fundo" type="Sprite2D" parent="." unique_id=1754129304]
+position = Vector2(576, 324)
+scale = Vector2(0.6889952, 0.68936175)
+texture = ExtResource("1_vpgfy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1048299800]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.032
+anchor_top = 0.025
+anchor_right = 0.032
+anchor_bottom = 0.025
+offset_left = 342.136
+offset_top = 345.8
+offset_right = 693.136
+offset_bottom = 435.8
+theme_override_constants/separation = 20
+
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=1113692217]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_u1n12")
+theme_override_font_sizes/font_size = 29
+theme_override_styles/normal = SubResource("StyleBoxFlat_r74pk")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_uhyar")
+theme_override_styles/hover = SubResource("StyleBoxFlat_eknwk")
+text = "Jogar"
+
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=114510143]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u1n12")
+theme_override_font_sizes/font_size = 29
+theme_override_styles/normal = SubResource("StyleBoxFlat_qwy1f")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vpgfy")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u1n12")
+text = "Sair"
+
+[node name="Label" type="Label" parent="." unique_id=2060823995]
+layout_mode = 0
+offset_left = 269.0
+offset_top = 150.0
+offset_right = 868.0
+offset_bottom = 250.0
+theme_override_colors/font_color = Color(4.0059752, 3.3115978, 2.2549367, 1)
+theme_override_fonts/font = ExtResource("2_vpgfy")
+theme_override_font_sizes/font_size = 80
+text = "LENHADOR INCRIMENTAL"
