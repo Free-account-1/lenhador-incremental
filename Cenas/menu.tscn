@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://prjhunpvv7it"]
 
-[ext_resource type="FontFile" uid="uid://dv3xewmx7j00a" path="res://Recursos/haunted_hill/WOODCUT.TTF" id="1_u1n12"]
 [ext_resource type="Texture2D" uid="uid://bj218ujfyb7e3" path="res://Recursos/imagens/ChatGPT Image 6 de out. de 2026, 15_18_55.png" id="1_vpgfy"]
+[ext_resource type="FontFile" uid="uid://5wej8vu5snxk" path="res://Recursos/haunted_hill/terror_________2005.ttf" id="2_eheat"]
 [ext_resource type="FontFile" uid="uid://crgn0o8wf5js4" path="res://Recursos/haunted_hill/HauntedHillRough-Rough.ttf" id="2_vpgfy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r74pk"]
-bg_color = Color(0.44738787, 0.33066234, 0.19721368, 1)
+bg_color = Color(0.4084174, 0.11853772, 0.016460573, 1)
 corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
@@ -33,7 +33,7 @@ expand_margin_right = 3.0
 expand_margin_bottom = 3.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qwy1f"]
-bg_color = Color(0.34216362, 0.08332229, 0.08332229, 1)
+bg_color = Color(0.28970823, 0.14435652, 0.0314005, 1)
 corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
@@ -88,8 +88,8 @@ theme_override_constants/separation = 20
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=1113692217]
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("1_u1n12")
-theme_override_font_sizes/font_size = 29
+theme_override_fonts/font = ExtResource("2_eheat")
+theme_override_font_sizes/font_size = 90
 theme_override_styles/normal = SubResource("StyleBoxFlat_r74pk")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_uhyar")
 theme_override_styles/hover = SubResource("StyleBoxFlat_eknwk")
@@ -97,8 +97,8 @@ text = "Jogar"
 
 [node name="Button2" type="Button" parent="VBoxContainer" unique_id=114510143]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_u1n12")
-theme_override_font_sizes/font_size = 29
+theme_override_fonts/font = ExtResource("2_eheat")
+theme_override_font_sizes/font_size = 90
 theme_override_styles/normal = SubResource("StyleBoxFlat_qwy1f")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_vpgfy")
 theme_override_styles/hover = SubResource("StyleBoxFlat_u1n12")
