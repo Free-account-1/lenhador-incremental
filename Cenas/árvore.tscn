@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://csn7nx7h1y6c3"]
+
+[ext_resource type="Script" uid="uid://w0xw7css84t2" path="res://Cenas/árvore.gd" id="1_c2emg"]
+
+[node name="Árvore" type="Area2D" unique_id=1560065575]
+script = ExtResource("1_c2emg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=938116091]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1210974994]
